@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:wght@500;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Beau+Rivage&family=Great+Vibes&family=Lobster&family=Noto+Serif+Myanmar:wght@800&family=Poppins:wght@500;700&display=swap');
+
+@font-face {
+    font-family: 'GreatVibes';
+    src: url('../GreatVibes-Regular.ttf');
+}
+@font-face {
+    font-family: 'Myanmarfont';
+    src: url('../myanmar-font.TTF');
+}
+*{
+    font-family: 'Poppins', sans-serif;
+}
+.main-title{
+    top: 0%;
+    position: absolute;
+    color: yellow;
+    width: 700px;
+    margin: 3px 400px 3px 400px;
+
+}
+.main-title p{
+    font-size: 20px;
+    font-weight: bold;
+    font-style:oblique;
+}
+.title{
+    font-family: 'Noto Serif Myanmar', serif;
+    text-align: center;
+    font-size: 95px;
+    top: 24%;
+    left: 37%;
+    position: absolute;
+    color: yellow;
+}
+.para
+{
+    top: 20%;
+}
+#oil{
+    background-image: url('./images/bg.jpg');
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    position:absolute;
+}
+#main-content{
+    margin: 250px 0 0 50px;
+    width: 600px;
+    height: 400px;
+    /* background-color: blue; */
+    padding: 10px 10px;
+}
+#main-content .pure{
+    margin-top: 10px;
+}
+#main-content .pure img{
+    width: 200px;
+    height: 130px;
+}
+/* #main-content .pure .logo{
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    left: 10%;
+    top: 43%;
+} */
+#main-content .content-title{
+    padding: 10px 0 0 20px;
+    font-family: 'Noto Serif Myanmar', serif;
+    font-size: 30px;
+    color: rgb(61, 61, 5);
+}
+#main-content .content-title span{
+    font-size: 20px;
+    color: #000;
+}
+#main-content .information{
+    margin-top: 1px;
+    padding-left: 20px;
+    font-size: 20px;
+    color: #002;
+    font-weight: bolder;
+    font-style: oblique;
+}
+
+#main-content .information i{
+    font-size: 30px;
+}
+#main-content .information span{
+    font-size: 20px;
+    font-weight: bolder;
+    color: rgb(44, 43, 3);
+}
+
+
+#image{
+    /* margin: 55px 10px 0px 0px; */
+    /* background-color: aqua; */
+}
+#image .oil-drop{
+    position: absolute;
+    width: 500px;
+    margin: 40px 0px 0px 120px;
+}
+
+#image .oil-bottle1{
+    bottom: 0;
+    position: absolute;
+    margin: 30px 0px 0 400px;
+}
+#image .oil-lay{
+    position: absolute;
+    width: 350px;
+    height: 250px;
+    margin:20px 0 0 370px;
+    /* transform: rotate(150deg); */
+}
+#image .peanut{
+    position: absolute;
+    width: 200px;
+    height: 100px;
+    margin:230px 0px 0 600px;
+}
+#image .sunflower{
+    position: absolute;
+    width: 300px;
+    height: 150px;
+    margin:90px 0px 0 650px;
+}
+#image .sesame{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    margin:0px 10px 0px 700px;
+}
+#image .redsesame{
+    position: absolute;
+    width: 250px;
+    height: 100px;
+    margin:190px 10px 0px 690px;
+}
+.moon{
+    position: absolute;
+    width: 700px;
+    top: 0;
+    left: 25%;
+    height: 400px;
+}
